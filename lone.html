@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="backgru">
+        <div class="scc"><img src="./img/icons8-receive-dollar-50 (1).png" alt=""></div>
+        <h3>YOU CAN APPLY FOR YOUR LOAN</h3>
+    </div>
+    <div class="form-container">
+        <div class="">
+            <span><h3>Apply for loan <img src="./img/icons8-man-holding-bags-with-money-skin-type-2-48.png" alt=""></h3></span>
+        </div>
+        <form id="loan-form">
+            <h4>Email:</h4>
+            <input type="email" id="email" name="email">
+            <span class="error" id="email-error"></span>
+
+            <h4>Last Loan Date:</h4>
+            <input type="date" id="last-loan-date" name="last-loan-date">
+            <span class="error" id="last-loan-date-error"></span>
+
+           <h4>Last Loan Amount</h4>
+            <input type="number" id="last-loan-amount" name="last-loan-amount">
+            <span class="error" id="last-loan-amount-error"></span>
+
+           <h4>Current Account Balance:</h4>
+            <input type="number" id="current-account-balance" name="current-account-balance">
+            <span class="error" id="current-account-balance-error"></span>
+
+            <h4>Requested Loan Amount:</h4>
+            <input type="number" id="requested-loan-amount" name="requested-loan-amount">
+            <span class="error" id="requested-loan-amount-error"></span>
+
+            <button type="button" id="submit-btn">Submit</button>
+            <span class="error" id="global-error"></span>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="./js.js"></script>
+</body>
+</html>
